@@ -215,3 +215,31 @@ a{
     opacity: 0.85;
 }
 
+
+
+
+
+
+/* Responsiveness */
+@media (max-width: 1100px) {
+    .hero_content{
+        width: 80vw;
+    }
+    .zuri_logo{
+        padding: 15vh 0;
+        margin-bottom: 0;
+    }
+    .hero_heading{
+        font-size: 1.8rem;
+        margin-top: 0;
+    }
+    .new_to_indistry, .need_experience{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .left_activity_bg, .right_activity_bg{
+        display: none;
+    }
+}
+
+
