@@ -126,4 +126,36 @@ a{
     opacity: 0.8;
 }
 
+.activity_boxex_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 85vw;
+    margin: 9vh auto;
+    grid-gap: 2vw;
+}
+.custom_activity_card{    
+    background-color: #FFFAFA;
+    padding: 8vh 2vw 20vh 2vw;
+    font-size: 16px;
+    color: #514949;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+.activity_card_img{
+    margin-bottom: 2rem;
+}
+.activity_card_txt{
+    margin-bottom: 2.5vh;
+    color: #514949;
+    opacity: 0.9;
+    font-size: 16px;
+    font-weight: 500;
+}
+.card_link{
+    font-weight: 700;
+    color: #E7332B;
+    opacity: 0.9;
+}
+
+
 
