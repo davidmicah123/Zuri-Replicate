@@ -243,3 +243,49 @@ a{
 }
 
 
+@media (max-width: 990px) {
+    .activity_boxex_wrapper{
+        width: 90vw;
+        grid-template-columns: 1fr;
+    }
+    .custom_activity_card{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .activity_boxex_wrapper{
+        grid-gap: 7vh;
+    }
+}
+
+@media (max-width: 770px) {
+    .hero_content{
+        width: 95vw;
+    }
+    .footer_grid{
+        flex-direction: column;
+        justify-content: center;
+        width: 90vw;
+        text-align: center;
+    }
+    .footer_logo{
+        width: 100%;
+        padding: 5vh 0;
+    }
+    .footer_address{
+        width: 100%;
+        margin: 5vh auto;
+    }
+    .zuri_logo{
+        width: 100%;
+        text-align: center;
+    }
+    .footer_social_media_wrapper{
+        width: 100%;
+    }
+    .activity_heading_sm {
+        margin-top: 60px;
+    }
+    .footer_social_media{
+        width: 4vw;
+    }
+}
