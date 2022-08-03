@@ -20,3 +20,41 @@ body {
 a{
     text-decoration: none;
 }
+
+
+
+/* Hero section styles */
+.hero_section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url("https://zuri.team/img/hero-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 122vh;
+    
+}
+.hero_content{
+    width: 50vw;
+    text-align: center;
+}
+.zuri_logo{
+    padding: 10vh 0;
+    padding-bottom: 5vh;
+}
+.hero_txt{
+    color: #514949;
+    opacity: 0.9;
+    font-weight: 500;
+}
+.hero_colored_txt{
+    color: #eb5850;
+    font-weight: 600;
+}
+.hero_heading{
+    font-size: 28px;
+    margin: 5vh auto;
+    color: #514949;
+    opacity: 0.9;
+}
