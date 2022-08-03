@@ -95,3 +95,35 @@ a{
     color: #fff;
 }
 
+
+/* Activity section */
+.activity_section{
+    margin-bottom: 30vh;
+    position: relative;
+}
+.left_activity_bg{
+    width: 25vw;
+    position: absolute;
+    left: 0;
+}
+.right_activity_bg{
+    width: 25vw;
+    position: absolute;
+    right: 0;
+}
+.activity_heading{
+    text-align: center;
+}
+.activity_heading_sm{
+    font-size: 16px;
+    color: #E7332B;
+    margin-top: 141px;
+    font-weight: 600;
+}
+.activity_heading_lg{
+    font-size: 2rem;
+    line-height: 3rem;
+    opacity: 0.8;
+}
+
+
