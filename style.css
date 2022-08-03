@@ -191,5 +191,27 @@ a{
     align-self: center;
     margin: 0.5vh auto;
 } */
-
+.footer_list, .footer_mail{
+    line-height: 2.5;
+}
+.footer_grid ul{
+    list-style: none;
+    transition: 0.2s all;
+}
+.footer_social_media{
+    width: 1.5vw;
+    margin-top: 2vh;
+}
+.colored_txt{
+    font-weight: 450;
+    color: #E7332B;
+}
+.copyright_txt{
+    text-align: center;
+    margin: 5vh;
+    font-weight: 700;
+    color: #514949;
+    margin-bottom: 5.5rem;
+    opacity: 0.85;
+}
 
