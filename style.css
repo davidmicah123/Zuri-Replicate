@@ -159,3 +159,37 @@ a{
 
 
 
+
+/* Footer */
+.footer_h3{
+    color: #514949;
+}
+.footer_grid{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    /* border-bottom: 2px solid black; */
+    margin: 2vh auto;
+    padding: 20px;
+    padding-bottom: 15vh;
+}
+.footer_logo{
+    width: 10vw;
+}
+.footer_address{
+    width: 16vw;
+    font-weight: 400;
+    opacity: 0.9;
+}
+.footer_social_media_wrapper{
+    width: 11vw;
+}
+/* .social_media_flex{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    align-self: center;
+    margin: 0.5vh auto;
+} */
+
+
