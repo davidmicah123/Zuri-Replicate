@@ -58,3 +58,40 @@ a{
     color: #514949;
     opacity: 0.9;
 }
+.hero_btn_container{
+    margin: 15vh 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+.new_to_indistry{
+    padding: 2.5vh 3vw;
+    font-weight: 600;
+    background-color: #E7332B;
+    color: #fff;
+    border: 0;
+    transition: 0.2s all;
+    font-size: 0.9rem;
+    align-self: center;
+}
+.new_to_indistry:hover{
+    color: #E7332B;
+    background-color: #fff;
+    border: 1px solid #E7332B;
+}
+.need_experience{
+    padding: 2.5vh 3vw;
+    border: 0;
+    font-weight: bolder;
+    background: #fff;
+    color: #E7332B;
+    border: 1px solid #E7332B;
+    transition: 0.2s all;
+    font-size: 0.9rem;
+}
+.need_experience:hover{
+    background-color: #E7332B;
+    color: #fff;
+}
+
