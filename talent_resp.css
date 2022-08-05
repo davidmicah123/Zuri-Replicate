@@ -123,3 +123,36 @@
     }
 
 }
+
+
+@media (max-width: 900px) {
+    .needed_skills{
+        width: 90%;
+    }
+    .needed_talent{
+        width: 90%;
+    }
+    .tag_section_wrapper{
+        margin-left: 0;
+    }
+}
+@media (max-width: 880px) {
+    .hidden_mobile{
+        display: none;
+    }
+    .nav_list{
+        justify-content: flex-end;
+    }
+    /* .all_social{
+        width: 30vw;
+    } */
+    .all_social img{
+        width: 5vw;
+    }
+}
+
+@media (max-width: 840px) {
+    .thick_hero{
+        right: 10%;
+    }
+}
