@@ -219,3 +219,33 @@
         font-size: 28px;
         text-align: left;
     }
+    .footer_links_wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer_logo{
+        display: flex;
+        justify-content: center;
+    }
+    .all_social{
+        display: flex;
+        justify-content: center;
+        margin-top: 3vh;
+    }
+    .copyright{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_rule{
+        display: block;
+        width: 90%;
+        margin: 2vh auto;
+    }
+    .all_social{
+        gap: 2vw;
+        padding: 2vh;
+    }
+    .all_social img {
+        width: 9vw;
+    }
