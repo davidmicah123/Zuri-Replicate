@@ -4,3 +4,35 @@
 .footer_rule{
     display: none;
 }
+
+
+@media (max-width: 1150px) {
+    /* .hero_img{
+        position: absolute;
+    } */
+    .home_underline, .impact_underline, .why_us_underline{
+        display: none;
+    }
+    .nav_list{
+        width: 55vw;
+    }
+    .talent_hero_line{
+        display: none;
+    }
+    .hero_section{
+        height: 100%;
+    }
+    .hero_content_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .hero_text{
+        text-align: center;
+    }
+    .hero_txt_sm{
+        width: 100%;
+        padding: 0 15%;
+    }
+    .hero_img{
+        display: flex;
+        justify-content: center;
+    }
