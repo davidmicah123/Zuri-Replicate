@@ -24,3 +24,34 @@ body {
 .colored{
     color: rgb(231, 51, 43);
 }
+
+
+/* Nav */
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    z-index: 200;
+}
+.nav_box{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    padding: 4vh 2vw;
+    margin: 0 auto;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 40vw;
+    background-color: transparent!important;
+    color: #585757!important;
+    font-family: Graphik !important;
+    font-size: 18px;
+    align-items: center;
+    align-content: center;    
+    /* color: #161617!important; */
+    position: relative;
+}
