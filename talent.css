@@ -286,3 +286,34 @@ nav{
     transform: translateY(-2vh);
 }
 
+
+
+/* ?Why us  */
+.why_hire_us{
+    position: relative;
+}
+.why_us_heading{
+    text-align: center;
+    padding: 2vh 0;
+    font-size: 32px;
+    margin-bottom: 4vh;
+}
+.why_hire_us{
+    background-color: rgb(255, 248, 229);
+    padding: 10vh 0 ;
+}
+.why_us_card_wrapper_lg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 85vw;
+    margin: 2vh auto;
+    grid-gap: 2vw;
+}
+.why_us_card_wrapper_sm{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 55vw;
+    margin: 4vh auto;
+    grid-gap: 2vw;
+    margin-bottom: 8vh;
+}
