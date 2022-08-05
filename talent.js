@@ -19,3 +19,29 @@ const revealSection3 = function (entries, observer) {
     whyUsUnderline.classList.remove('show');
 
 }
+
+
+const  section_observer3 = new IntersectionObserver(revealSection3, {
+    root: null,
+    threshold: 0.15,
+});
+section_observer3.observe(homeSection);
+
+const impactSection = document.querySelector('.impact_section');
+const revealSection = function (entries, observer) {
+    const [entry] = entries;
+    // console.log(entry);
+
+    if(!entry.isIntersecting) return;
+  
+    impactUnderline.classList.add('show');
+    homeUnderline.classList.remove('show');
+    whyUsUnderline.classList.remove('show');
+
+}
+
+const  section_observer = new IntersectionObserver(revealSection, {
+    root: null,
+    threshold: 0.15,
+});
+section_observer.observe(impactSection);
