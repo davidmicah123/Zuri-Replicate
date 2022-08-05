@@ -271,4 +271,18 @@ nav{
     gap: 1vw;
     margin: 2vh 0;
 }
+.tag_btn{
+    background-color: white;
+    padding: 1.5vh 2vw;
+    border: 0;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    color: #787878!important;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.116);
+    transition: 0.5s all;
+    z-index: 20;
+}
+.tag_btn:hover{
+    transform: translateY(-2vh);
+}
 
