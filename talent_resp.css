@@ -91,3 +91,35 @@
     }
 }
 
+
+@media (max-width: 900px) {
+    .impact_section{
+        height: 100%;
+    }
+    .impact_section_wrapper{
+        grid-template-columns: 1fr;
+        gap: 4vh;
+    }
+    .impact_img{
+        justify-content: center;
+    }
+    .impact_img img{
+        width: 80%;
+        align-self: center;
+    }
+    .all_impact_txt{
+        width: 80vw;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .countries_impacted{
+        justify-content: space-around;
+    }
+    .impact_heading{
+        width: 100%;
+    }
+    .impact_heading{
+        text-align: center;
+    }
+
+}
