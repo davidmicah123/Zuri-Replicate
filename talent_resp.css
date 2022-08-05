@@ -249,3 +249,36 @@
     .all_social img {
         width: 9vw;
     }
+    .all_impact_txt{
+        text-align: left;
+    }
+    .impact_heading{
+        font-size: 28px;
+        text-align: left;
+    }
+    .hero_txt_sm{
+        width: 97%;
+        padding: 0;
+    }
+    .main_hero_img{
+        width: 100%;
+    }
+    .hero_hire{
+        font-size: 1.6rem;
+        padding: 1vh 4vw;
+    }
+    .join_talent_pool{
+        font-size: 1.6rem;
+        padding: 1vh 4vw;
+        margin-left: 1vw;
+    }
+    .hero_content_wrapper{
+        gap: 5vh;
+    }
+    .impact_img img{
+        width: 100%;
+    }
+    .impact_section_wrapper{
+        gap: 7vh;
+    }
+}
