@@ -45,3 +45,22 @@ const  section_observer = new IntersectionObserver(revealSection, {
     threshold: 0.15,
 });
 section_observer.observe(impactSection);
+
+const whySection = document.querySelector('.why_hire_us');
+const revealSection2 = function (entries, observer) {
+    const [entry] = entries;
+    // console.log(entry);
+
+    if(!entry.isIntersecting) return;
+  
+    impactUnderline.classList.remove('show');
+    homeUnderline.classList.remove('show');
+    whyUsUnderline.classList.add('show');
+
+}
+
+const  section_observer2 = new IntersectionObserver(revealSection2, {
+    root: null,
+    threshold: 0.15,
+});
+section_observer2.observe(whySection);
