@@ -170,3 +170,40 @@ nav{
     border-bottom-right-radius: 0.4rem;
 }
 
+
+
+/* Impact section */
+.all_impact_txt{
+    width: 35vw;
+}
+.impact_section{
+    background-image: url(images/bgsection2.063bd869082548bafa74.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.impact_section_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85vw;
+    margin: 2vh auto;
+    padding: 15vh 0;
+}
+.impact_heading{
+    font-size: 3rem;
+    width: 40vw;
+    line-height: 130%;
+    margin-bottom: 4vh;
+    font-size: 40px;
+}
+.impact_img{
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+}
+.impact_img img{
+    width: 65%;
+}
