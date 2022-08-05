@@ -36,3 +36,32 @@
         display: flex;
         justify-content: center;
     }
+    .main_hero_img {
+        width: 70%;
+    }
+    .impact_img img{
+        width: 90%;
+    }
+    .tags_section{
+        padding: 10vh 5vh;
+    }
+    .tag_line{
+        display: none;
+    }
+    .wrapper1{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .wrapper2{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    .hide_sm{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+    .why_us_card_wrapper_lg{
+        grid-template-columns: repeat(2, 1fr);
+    }
