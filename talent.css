@@ -317,3 +317,28 @@ nav{
     grid-gap: 2vw;
     margin-bottom: 8vh;
 }
+.card{
+    background-color: white;
+    border-bottom-right-radius: 1.5rem;
+    color: #787878!important;
+    padding: 8vh 2vw;
+    text-align: center;
+    z-index: 50;
+}
+.card:hover{
+    background-color: black;
+    color: #fff !important;
+}
+.card_img{
+    margin-bottom: 2vh;
+}
+.rope{
+    position: absolute;
+    left: 0;
+    top: 52%;
+}
+.why_hire_btn{
+    text-align: center;
+    padding: 5vh auto;
+}
+
