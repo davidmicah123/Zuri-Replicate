@@ -156,3 +156,28 @@
         right: 10%;
     }
 }
+
+
+@media (max-width: 750px) {
+    .wrapper1{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .wrapper2{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card{
+        padding: 3vh 5vw;
+    }
+    .rope{
+        width: 30vw;
+    }
+}
+
+@media (max-width: 680px) {
+    .all_social img{
+        width: 7vw;
+    }
+    .rope{
+        top: 45%;
+    }
+}
