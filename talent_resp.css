@@ -282,3 +282,9 @@
         gap: 7vh;
     }
 }
+
+@media (max-width: 450px) {
+    .hero_hire{
+        margin-bottom: 2vh;
+    }
+}
