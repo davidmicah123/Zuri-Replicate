@@ -93,3 +93,38 @@ nav{
 .show{
     opacity: 100;
 }
+
+
+
+
+
+
+/* Hero */
+.hero_section{
+    height: 80vh;
+    margin-top: 30vh;
+}
+.hero_content_wrapper{
+    display: grid;
+    grid-template-columns: 60fr 40fr;
+    width: 85vw;
+    gap: 2vw;
+    margin: 2vh auto;
+    align-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
+.hero_img{
+    position: relative;
+}
+.talent_hero_line{
+    position: absolute;
+    top: 60%;
+    width: 15vw;
+    right: -6.7vw;
+    z-index: -5;
+}
+.main_hero_img{
+    width: 90%;
+    z-index: 40;
+}
