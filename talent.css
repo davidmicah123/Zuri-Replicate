@@ -153,4 +153,20 @@ nav{
 .hero_btn_box{
     margin: 2vh 0;
 }
+.hero_hire{
+    padding: 1vh 2vw;
+    background: rgb(231, 51, 43);
+    color: white;
+    font-size: 1rem;
+    border: 0;
+    border-bottom-right-radius: 0.4rem;
+}
+.join_talent_pool{
+    background-color: #585858!important;
+    padding: 1vh 2vw;
+    color: white;
+    font-size: 1rem;
+    border: 0;
+    border-bottom-right-radius: 0.4rem;
+}
 
