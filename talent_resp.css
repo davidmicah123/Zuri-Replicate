@@ -65,3 +65,29 @@
     .why_us_card_wrapper_lg{
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    .why_us_card_wrapper_sm{
+        grid-template-columns: 1fr;
+        width: 85vw;
+    }
+    .large_sm{
+        width: 100%;
+    }
+    .rope{
+        top: 40%;
+    }
+    .why_us_heading{
+        font-size: 32px;
+        margin-bottom: 5vh;
+    }
+    .needed_skills{
+        width: 90%;
+    }
+    .needed_talent{
+        width: 90%;
+    }
+    .tag_section_wrapper{
+        margin-left: 2vw;
+    }
+}
+
