@@ -207,3 +207,31 @@ nav{
 .impact_img img{
     width: 65%;
 }
+.countries_impacted{
+    display: flex;
+    gap: 1vw;
+    box-sizing: content-box;
+    margin-top: 3vh;
+}
+.country{
+    background-color: white;
+    padding: 1.5vh;
+    border-radius: 0.4rem;
+}
+.impact_stats{
+    color: #787878;
+    font-family: Graphik;
+    font-size: 19px;
+    font-weight: 750 ;
+    margin-bottom: 1vh;
+}
+.country_placed{
+    color: #787878;
+    font-family: Graphik;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
