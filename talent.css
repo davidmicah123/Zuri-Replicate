@@ -235,3 +235,40 @@ nav{
 
 
 
+
+
+/* Tag section */
+.tags_section{
+    padding: 10vh;
+}
+.tag_section_wrapper{
+    width: 90vw;
+    margin-left: 3vw;
+}
+.tag_box{
+    margin: 8vh 0;
+    position: relative;
+}
+.needed_skills{
+    font-size: 3rem;
+    width: 40vw;
+    line-height: 49px!important;
+    margin-bottom: 4vh;
+}
+.tag_line{
+    position: absolute;
+    top: 4vh;
+    right: 3vw;
+}
+.needed_talent{
+    font-size: 3rem;
+    width: 40vw;
+    line-height: 49px!important;
+    margin-bottom: 4vh;
+}
+.btn_wrapper{
+    display: flex;
+    gap: 1vw;
+    margin: 2vh 0;
+}
+
