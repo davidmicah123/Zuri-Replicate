@@ -54,4 +54,36 @@
     .scope_section_intro h1{
         width: 90%;
         font-size: 32px;
+    }.custom_faq_card{
+        width: 80%;
     }
+    .program_card_wrapper{
+        width: 90vw;
+    }
+    .structure_move{
+        display: none;
+    }
+    .industry_heading{
+        font-size: 45px;
+    }
+    .industry_box{
+        height: 100%;
+        padding-bottom: 10vh;
+    }
+    .nav_list{
+        width: 60vw;
+    }
+    .thumb_img {
+        width: 6vw;
+    }
+    .enroll_now {
+        padding: 1.5vh 3vw;
+        transform: translateX(-2.45vw);
+    }
+    .step_section_intro h1{
+        font-size: 32px;
+    }
+    .quality_decoration_img{
+        display: none;
+    }
+}
