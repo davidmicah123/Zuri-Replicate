@@ -409,3 +409,39 @@ nav{
     width: 6vw;
     height: 8vh;
 }
+
+
+
+/* faq_section */
+.faq_section{
+    position: relative
+}
+.faq_sub_heading{
+    text-align: center;
+    font-size: 24px;
+    color: #e7332b!important;
+    line-height: 130%;
+}
+.faq_heading{
+    text-align: center;
+    font-size: 40px;
+    color: #333!important;
+    font-family: Graphik!important;
+    font-weight: 700!important;
+    line-height: 130%!important;
+    margin-bottom: 2vh;
+}
+.faq_wire{
+    position: relative;
+    width: 10vw;
+    left: 15vw;
+}
+.faq_conclusion{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 1vw;
+    font-size: 18px;
+    justify-content: center;
+    margin: 9vh auto;
+}
