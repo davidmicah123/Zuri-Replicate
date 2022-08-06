@@ -8,3 +8,22 @@ const faqToogle14 = document.querySelector('.faq_toggle4');
 const dropdownTxt4 = document.querySelector('.down_txt4');
 const faqToogle15 = document.querySelector('.faq_toggle5');
 const dropdownTxt5 = document.querySelector('.down_txt5');
+
+
+const runToggleEvent = function (attEvent, txt) {
+    txt.style.display = "none";
+    attEvent.addEventListener('click', 
+        function (e) {
+            // targeted.closest(dropdownTxt);
+            console.log(e.target);
+            const target = e.target;
+            target.style.animationName = "spin";
+            if (txt.style.display === "none") {
+                txt.style.display = "block";
+            }else{
+                txt.style.display = "none";            
+                target.style.animationName = "close";
+            }
+        }
+    );
+}
