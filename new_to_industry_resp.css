@@ -1,1 +1,27 @@
-
+@media (max-width: 1180px) {
+    .hero_section{
+        margin-top: 15vh;
+    }
+    .hero_heading{
+        font-size: 30px!important;
+    }
+    .hero_content_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .hero_img_wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;        
+    }
+    .hero_img{
+        align-self: flex-start;
+        width: 76%;
+    }
+    .align_left{
+        display: none;
+    }
+    .section_wire{
+        width: 10vw;
+        right: 15%;
+    }
