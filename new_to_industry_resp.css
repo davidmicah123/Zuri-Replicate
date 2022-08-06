@@ -97,3 +97,33 @@
     }
 }
 
+
+
+@media (max-width: 900px) {
+    .step_card_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .scope_card_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .program_card_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .industry_heading{
+        width: 70%!important;
+    }
+    .scope_card{
+        padding: 4rem 2rem;
+    }
+    .min_logo{
+        width: 6vw;
+    }
+    .program_card{
+        border-radius: 3rem;
+    }
+    .program_card p{
+        font-size: 16px;
+    }
+    .program_card ul li{
+        font-size: 18px;
+    }
