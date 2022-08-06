@@ -185,3 +185,10 @@
     }
 }
 
+
+
+@media (max-width: 500px) {
+    .nav_list{
+        display: none;
+    }
+}
