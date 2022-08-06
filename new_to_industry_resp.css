@@ -126,4 +126,31 @@
     }
     .program_card ul li{
         font-size: 18px;
+    }.scope_card {
+        border-radius: 2rem;
     }
+    .welcome_content_wrapper{
+        grid-template-columns: 1fr;
+        padding: 5vh 0;
+    }
+    .welcome_logo_wrapper{
+        display: flex;
+        justify-content: center;
+    }
+    .welcome_logo_wrapper img{
+        width: 30%;
+    }
+    .welcome_txt1{
+        text-align: center;
+    }
+    .welcome_txt2{
+        text-align: center !important;
+    }
+    .step_card_txt{
+        font-size: 20px;
+    }
+    .scope_section_intro h1{
+        width: 80%;
+    }
+}
+
