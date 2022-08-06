@@ -257,3 +257,31 @@ nav{
     right: -2px;
     top: 0vh;
 }
+.step_card:hover{
+    transform: translateY(-2vh);
+}
+.step_card1{
+    background: rgb(231, 51, 43);
+    color: rgb(255, 255, 255);
+}
+.step_card_num{
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 2;
+}
+.step_sub_heading{
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 1.3;
+    margin-bottom: 7vh;
+}
+.step_card_txt{
+    font-size: 18px;
+    margin-bottom: 10vh;    
+    color: #1b1a20!important;
+    line-height: 130%;
+    font-weight: 400;
+}
+.step_1_txt{
+    color: rgb(255, 255, 255) !important;
+}
