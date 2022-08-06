@@ -24,4 +24,34 @@
     .section_wire{
         width: 10vw;
         right: 15%;
+    }.step_card_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .quality_section_wrapper{
+        grid-template-columns: 1fr;
+    }
+    .quality_section{
+        padding-bottom: 10vh;
+    }
+    .quality_divisions{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .section5_wire{
+        width: 20vh;
+        right: 30%;
+        /* position: absolute; */
+    }
+    .training_pointer{
+        margin-left: 18vw;
+        margin-bottom: 2vh;
+    }
+    .quality_heading{
+        font-size: 36px;
+    }
+    .scope_card_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .scope_section_intro h1{
+        width: 90%;
+        font-size: 32px;
     }
