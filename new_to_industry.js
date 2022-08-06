@@ -1,1 +1,10 @@
-
+const faqToogle1 = document.querySelector('.faq_toggle1');
+const dropdownTxt1 = document.querySelector('.down_txt1');
+const faqToogle12 = document.querySelector('.faq_toggle2');
+const dropdownTxt2 = document.querySelector('.down_txt2');
+const faqToogle13 = document.querySelector('.faq_toggle3');
+const dropdownTxt3 = document.querySelector('.down_txt3');
+const faqToogle14 = document.querySelector('.faq_toggle4');
+const dropdownTxt4 = document.querySelector('.down_txt4');
+const faqToogle15 = document.querySelector('.faq_toggle5');
+const dropdownTxt5 = document.querySelector('.down_txt5');
