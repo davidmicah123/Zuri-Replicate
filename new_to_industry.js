@@ -31,4 +31,21 @@ runToggleEvent(faqToogle1, dropdownTxt1);
 runToggleEvent(faqToogle12, dropdownTxt2);
 runToggleEvent(faqToogle13, dropdownTxt3);
 runToggleEvent(faqToogle14, dropdownTxt4);
-runToggleEvent(faqToogle15, dropdownTxt5)
+runToggleEvent(faqToogle15, dropdownTxt5);
+
+
+// faqToogle1.addEventListener('click', 
+//     function (e) {
+//         // targeted.closest(dropdownTxt);
+//         console.log(e.target);
+//         const target = e.target;
+//         target.style.animationName = "spin";
+//         if (dropdownTxt1.style.display === "none") {
+//             dropdownTxt1.style.display = "block";
+//         }else{
+//             dropdownTxt1.style.display = "none";            
+//             target.style.animationName = "close";
+//         }
+//     }
+// );
+
