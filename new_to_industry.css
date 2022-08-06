@@ -312,3 +312,35 @@ nav{
     margin-bottom: 4vh;
     letter-spacing: 0.00938em;
 }
+.quality_txt{
+    font-size: 24px;
+    color: #fff!important;
+    /* font-family: Graphik!important; */
+    font-weight: 450;
+    line-height: 130%!important;
+    margin-bottom: 4vh;
+    width: 75%!important;
+}
+.quality_divisions{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vh;
+    margin: 5vh 0;
+}
+.quality_div_box{
+    border: 2px solid white;
+    border-radius: 3rem;
+    padding: 1.5vh 1vw;
+    font-size: 1.3rem;
+    display: flex;
+    /* justify-content: center; */
+    gap: 1vw;
+    align-content: center;
+    align-items: center;
+    cursor: not-allowed;
+}
+.quality_decoration_img{
+    transform: translateX(-5vw);
+    height: 13vh;
+    margin-bottom: 4vh;
+}
