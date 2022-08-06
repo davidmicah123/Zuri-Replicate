@@ -154,3 +154,34 @@
     }
 }
 
+
+
+@media (max-width: 600px) {
+    .quality_img_wrapper img{
+        width: 100%;
+    }
+    .quality_divisions{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer_img_wrapper{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .custom_faq_card {
+        width: 90vw;
+    }
+    .faq_heading {
+        font-size: 30px;
+    }
+    .faq_conclusion{
+        flex-direction: column;
+    }
+    .quality_txt{
+        width: 100%!important;
+        font-size: 20px!important;
+    }
+    .quality_heading{
+        font-size: 30px;
+    }
+}
+
