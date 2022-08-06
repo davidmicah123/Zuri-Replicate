@@ -583,3 +583,41 @@ nav{
     /* left: 5vw; */
     /* z-index: -5; */
 }
+
+
+/* Industry section */
+.industry_circle_img{
+    width: 10vw;
+    margin: 3vh 5vw;
+}
+.industry_box{
+    background-color: #e7332b;
+    width: 90vw;
+    height: 67vh;
+    border-radius: 1rem;
+    margin: 2vh auto;
+    text-align: center;
+    padding: 7vh auto;
+    position: relative;
+}
+.industry_start{
+    color: white;
+    padding-top: 10vh;
+}
+.industry_heading{
+    color: white;
+    font-size: 55px;
+    width: 50%!important;
+    margin: auto;
+    padding: 2vh 0;
+    padding-bottom: 7vh;
+}
+.industry_btn{
+    color: #f44336;
+    background: white;
+    padding: 1.2vh 2vw;
+    border: 0ch;
+    border-radius: 2rem;
+    font-size: 20px;    
+    font-weight: 700!important;
+}
