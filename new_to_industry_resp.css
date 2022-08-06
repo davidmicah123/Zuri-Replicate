@@ -87,3 +87,13 @@
         display: none;
     }
 }
+
+@media (max-width: 970px) {
+    .nav_none_mobile{
+        display: none;
+    }
+    .nav_list{
+        justify-content: flex-end;
+    }
+}
+
