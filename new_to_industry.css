@@ -497,3 +497,40 @@ nav{
     100%{transform: rotateZ(-360deg);}
 }
 
+
+/* Structure section */
+.programme_structure_section{
+    position: relative;
+    padding-bottom: 10vh;
+}
+.structure_header{
+    text-align: center;
+    margin: 12vh auto;
+    position: relative;
+    padding-top: 13vh;
+}
+.structure_wire{
+    position: absolute;
+    left: 10vw;
+    width: 11vw;
+    top: 0;
+}
+.structure_star{
+    position: absolute;
+    width: 11vw;
+    right: 12vw;
+    top: 7vh;
+}
+.pre_structure_heading{   
+    font-size: 24px;
+    color: #e7332b!important;
+    line-height: 130%;
+}
+.structure_heading{
+    font-size: 40px;
+    color: #333!important;
+    font-family: Graphik!important;
+    font-weight: 700!important;
+    line-height: 130%!important;
+    margin-bottom: 2vh;
+}
