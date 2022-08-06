@@ -26,3 +26,9 @@ const runToggleEvent = function (attEvent, txt) {
         }
     );
 }
+
+runToggleEvent(faqToogle1, dropdownTxt1);
+runToggleEvent(faqToogle12, dropdownTxt2);
+runToggleEvent(faqToogle13, dropdownTxt3);
+runToggleEvent(faqToogle14, dropdownTxt4);
+runToggleEvent(faqToogle15, dropdownTxt5)
