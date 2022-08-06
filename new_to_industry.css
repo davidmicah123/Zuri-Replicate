@@ -285,3 +285,30 @@ nav{
 .step_1_txt{
     color: rgb(255, 255, 255) !important;
 }
+
+
+/* Quality section */
+.section5_wire{
+    margin-left: 20vw;
+    width: 7vw;
+}
+.quality_section{
+    background-color: #e7332b;
+    color: white;
+    padding-top: 10vh;
+}
+.quality_section_wrapper{
+    display: grid;
+    grid-template-columns: 45fr 55fr;
+    width: 85vw;
+    margin: 2vh auto;
+}
+.quality_img_wrapper img{
+    width: 100%;
+}
+.quality_heading{
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 4vh;
+    letter-spacing: 0.00938em;
+}
