@@ -79,3 +79,33 @@ nav{
     width: 4vw;
     height: 8vh;
 }
+
+
+/* Hero */
+.hero_section{
+    margin-top: 30vh;
+}
+.hero_content_wrapper{
+    display: grid;
+    grid-template-columns: 25fr 50fr 25fr;
+    width: 90%;
+    margin: 1vh auto;
+}
+.hero_txt{
+    text-align: center;
+    position: relative;
+}
+.hero_img_wrapper{
+    width: 100%;
+    display: flex;
+}
+.hero_img{
+    width: 125%;
+    /* height: 60%; */
+    mix-blend-mode: darken!important;
+    align-self: center;
+}
+.align_left{
+    width: 110%;
+    transform: translateX(-10%);
+}
