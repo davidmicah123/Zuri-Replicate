@@ -344,3 +344,39 @@ nav{
     height: 13vh;
     margin-bottom: 4vh;
 }
+
+
+
+/* Scope section */
+.scope_section{
+    padding: 10vh 0;
+}
+.scope_section_intro h1{
+    font-size: 2.8rem;
+    font-weight: 700!important;
+    line-height: 130%!important;
+    color: #1b1a20!important;
+    /* font-family: Graphik!important; */
+    width: 40vw;
+    margin-left: 5vw;
+}
+.scope_section_intro p{
+    margin-left: 5.2vw;    
+    color: #e7332b!important;
+    font-size: 24px;
+    line-height: 130%;
+}
+.scope_pointer_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.scope_pointer_wrapper img{
+    width: 12vw;
+}
+.scope_card_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90vw;
+    grid-gap: 2vw;
+    margin: 2vh auto;
+}
