@@ -653,3 +653,31 @@ nav{
     left: 0;
     transform: rotateZ(180deg);
 }
+
+
+
+
+
+/* footer */
+footer{
+    padding: 7vh 6vw;
+    padding-bottom: 3vh;
+}
+.footer_img_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+}
+.all_social{
+    display: flex;
+    gap: 1vw;
+}
+.copyright_policy{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1b1a20;
+    /* font-family: Graphik ; */
+}
