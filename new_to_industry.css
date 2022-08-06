@@ -58,3 +58,24 @@ nav{
     display: flex;
     align-items: center;
 }
+.enroll_now{
+    font-size: 20px;
+    padding: 1.5vh 2vw;
+    border: 0;
+    border-radius: 2rem;
+    color: white;
+    background-color: #e7332b;
+    transform: translateX(-2vw);
+}
+.thumbs_btn{
+    background-color: #e7332b;
+    border: 0;
+    padding: 2vh;
+    border-radius: 50%;
+    padding-bottom: 1.5vh;
+    z-index: 30;
+}
+.thumb_img{
+    width: 4vw;
+    height: 8vh;
+}
