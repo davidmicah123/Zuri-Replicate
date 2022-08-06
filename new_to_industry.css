@@ -200,3 +200,32 @@ nav{
     color: rgb(67, 185, 127);
     text-decoration: underline;
 }
+
+
+/* step section  */
+.training_pointer{
+    margin-left: 18vw;
+    margin-bottom: 2vh;
+}
+.training_step_section{
+    background: linear-gradient(rgba(255, 244, 240, 0), rgb(255, 244, 240) 17.19%, rgb(255, 244, 240) 84.37%, rgba(255, 244, 240, 0)) !important;
+    padding: 10vh 0;
+    padding-bottom: 20vh;
+    background-color: #e7332b;  
+}
+.training_intro_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90vw;
+    margin: 5vh auto;
+}
+.star{
+    mix-blend-mode: darken!important;
+    width: 15vw;
+    align-self: center;
+    margin: 2vh auto;
+}
+.step_section_intro{
+    width: 50vw;
+    /* margin-left: 8vw; */
+}
