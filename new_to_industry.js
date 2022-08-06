@@ -14,7 +14,6 @@ const runToggleEvent = function (attEvent, txt) {
     txt.style.display = "none";
     attEvent.addEventListener('click', 
         function (e) {
-            // targeted.closest(dropdownTxt);
             console.log(e.target);
             const target = e.target;
             target.style.animationName = "spin";
