@@ -534,3 +534,52 @@ nav{
     line-height: 130%!important;
     margin-bottom: 2vh;
 }
+.structure_sub_heading{
+    font-size: 18px;
+    color: #333!important;
+    font-family: Graphik!important;
+    line-height: 130%;
+}
+.program_card_wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80vw;
+    grid-gap: 2vw;
+    margin: 2vh auto;
+}
+.program_card{
+    background-color: #1b1a20!important;
+    color: white;
+    height: 765px!important;
+    padding: 64px 48px;
+    border-radius: 2rem;
+    position: relative;
+    box-shadow: 0 36px 48px rgba(231,51,43,.2);
+}
+.programme_list{
+    margin-left: 1.5vw;
+}
+.list_style_none{
+    list-style: none;
+}
+.structure_img{
+    width: 23%;
+    right: 2vw;
+    bottom: 5vh;
+    position: absolute;
+}
+.structure_curcle{
+    width: 15vw;
+    position: absolute;
+    /* top: 0; */
+    right: 5vw;
+    bottom: 1vh;
+    z-index: -5;
+}
+.structure_move{
+    width: 10vw;
+    position: absolute;
+    top: 50%;
+    /* left: 5vw; */
+    /* z-index: -5; */
+}
