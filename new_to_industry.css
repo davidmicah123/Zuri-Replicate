@@ -445,3 +445,44 @@ nav{
     justify-content: center;
     margin: 9vh auto;
 }
+.tweet{
+    font-size: 18px;
+    background-color: #e7332b;
+    border: 0;
+    color: white;
+    padding: 1.5vh 2vw;
+    display: flex;
+    gap: 1vw;
+    align-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+.main_faq_div{
+    padding: 1vh auto;
+    margin: 8vh auto;
+}
+.custom_faq_card{
+    background-color: rgb(255, 253, 245);;
+    width: 75%;
+    padding: 2vh 2vw;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    transition: 1s all;
+}
+.faq_card_head{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0;
+    align-items: center;
+    align-content: center;
+    padding-top: 0;
+}
+.faq_toggle{
+    font-size: 32px;
+    cursor: pointer;
+    /* animation-name: spin; */
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
