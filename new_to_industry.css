@@ -380,3 +380,32 @@ nav{
     grid-gap: 2vw;
     margin: 2vh auto;
 }
+.scope_card{
+    border-radius: 1.7rem;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 11px 22px rgb(231 51 43 / 10%);
+}
+.scope_end_box{
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0;
+}
+.enroll_now_scope{
+    font-size: 1.3rem;
+    padding: 1.5vh 2vw;
+    border: 0;
+    border-radius: 2rem;
+    color: white;
+    background-color: #e7332b;
+}
+
+.min_logo{
+    width: 3vw;
+    height: 8vh;
+}
+
+.large_logo{
+    width: 6vw;
+    height: 8vh;
+}
