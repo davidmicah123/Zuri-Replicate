@@ -23,3 +23,38 @@ body {
 a{
     text-decoration: none;
 }
+
+
+/* Nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    height: 14vh;
+    background: rgb(255, 253, 245);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 3vh 4vw;
+    align-items: center;
+    align-content: center;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+    width: 55vw;
+    list-style: none;    
+    background-color: transparent;
+    color: #585757 !important;
+    font-size: 18px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    align-items: center;
+    align-content: center;
+}
+.nav_btn_plus{
+    display: flex;
+    align-items: center;
+}
