@@ -24,7 +24,8 @@
     .section_wire{
         width: 10vw;
         right: 15%;
-    }.step_card_wrapper{
+    }
+    .step_card_wrapper{
         grid-template-columns: repeat(2, 1fr);
     }
     .quality_section_wrapper{
@@ -54,7 +55,8 @@
     .scope_section_intro h1{
         width: 90%;
         font-size: 32px;
-    }.custom_faq_card{
+    }
+    .custom_faq_card{
         width: 80%;
     }
     .program_card_wrapper{
@@ -97,8 +99,6 @@
     }
 }
 
-
-
 @media (max-width: 900px) {
     .step_card_wrapper{
         grid-template-columns: 1fr;
@@ -126,7 +126,8 @@
     }
     .program_card ul li{
         font-size: 18px;
-    }.scope_card {
+    }
+    .scope_card {
         border-radius: 2rem;
     }
     .welcome_content_wrapper{
@@ -154,8 +155,6 @@
     }
 }
 
-
-
 @media (max-width: 600px) {
     .quality_img_wrapper img{
         width: 100%;
@@ -166,6 +165,26 @@
     .footer_img_wrapper{
         flex-direction: column;
         justify-content: center;
+    }
+    .all_social{
+        justify-content: center;
+        margin-top: 5vh;
+    }
+    .copyright_policy {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer_logo{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .main_copyright{
+        font-size: 18px;
+    }
+    .conclusion_bottom{
+        font-size: 18px;
+        margin-top: 2vh;
     }
     .custom_faq_card {
         width: 90vw;
@@ -183,12 +202,23 @@
     .quality_heading{
         font-size: 30px;
     }
-}
-
-
-
-@media (max-width: 500px) {
-    .nav_list{
+    .star{
         display: none;
+    }
+    .training_intro_grid{
+        grid-template-columns: 1fr;
+    }
+    .step_section_intro{
+        width: 100%;
+    }
+    .logo{
+        width: 80%;
+    }
+    .thumb_img{
+        width: 10vw;
+    }
+    .enroll_now {
+        padding: 1.5vh 5vw;
+        transform: translateX(-4.45vw);
     }
 }
